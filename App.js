@@ -6,13 +6,14 @@ import Cadastro from './components/cadastro';
 import Header from './components/header';
 import Login from './components/Login';
 import Top10owasp from './components/top10owasp';
+import A012021 from './components/A012021';
+
 
 function HomeScreen() {
     return (
         <View>
             <Header />
-           
-            <Top10owasp />
+            <A012021/>
             
             
         </View>
